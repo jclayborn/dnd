@@ -1,9 +1,7 @@
 function MenuController() {
-    'use strict';
-    var self = this;
+    let self = this;
     self.tab = '';
     self.setTab = function (tab) {
-        console.log('changing tab : ', tab);
         self.tab = tab;
     }
 }
