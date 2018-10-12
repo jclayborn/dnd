@@ -1,5 +1,4 @@
 function Menu() {
-    'use strict';
     return {
         restrict: 'E',
         templateUrl: 'src/Menu/Menu.html',
